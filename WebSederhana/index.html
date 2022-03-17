@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sederhana</title>
+
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+    <div id="scrollhome"></div>
+    <header>
+        <nav>
+            <ul class="open">
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#biodata">Biodata</a></li>
+                <li><a href="#komentar">Komentar</a></li>
+            </ul>
+            <div class="navBtn">
+                <div class="burger">
+                </div>
+            </div>
+        </nav>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+                <div class="slide first">
+                    <img src="assets/img/jumbotron1.jpeg" alt="satu">
+                </div>
+                <div class="slide">
+                    <img src="assets/img/jumbotron2.jpeg" alt="dua">
+                </div>
+                <div class="slide">
+                    <img src="assets/img/jumbotron3.jpeg" alt="tiga">
+                </div>
+
+                <div class="navigationAuto">
+                    <div class="autoBtn1"></div>
+                    <div class="autoBtn2"></div>
+                    <div class="autoBtn3"></div>
+                </div>
+
+                <div class="navigationManual">
+                    <label for="radio1" class="manualBtn"></label>
+                    <label for="radio2" class="manualBtn"></label>
+                    <label for="radio3" class="manualBtn"></label>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <content id="content">
+            <div id="scrollabout-us"></div>
+            <article class="card">
+                <div class="title" id="about">
+                    <h1>Tentang Saya</h1>
+                    <hr class="underlined-text">
+                </div>
+                <img src="assets/img/tentangsaya_ccexpress.jpeg" alt="" class="featured-image">
+                <p><b>Hai</b> saya Taufik, mahasiswa tingkat awal prodi informatika pada salah satu universitas di Yogyakarta.
+                               Saya mempunyai hobi berolahraga, salah satunya pada cabang futsal. Cita-cita saya adalah tetap 
+                               menjadi orang baik dan bisa membanggakan kedua orang tua. Untuk target saya saat ini adalah 
+                               bisa lulus tepat waktu dan lulus dengan IPK yang memuaskan (cumlaude). Sebisa mungkin setelah 
+                               lulus langsung mendapatkan kerja, merintis usaha sesuai bidang ilmu yang saya pelajari sewaktu
+                               kuliah, lalu menikah, dan sukses dunia akhirat. AAMIIN
+                </p>
+            </article>
+           
+        </content>
+        <aside>
+            <div id="scrollprofile"></div>
+            <article class="card" id="biodata">
+                <figure class="foto-profile">
+                    <img src="assets/img/biodata1_ccexpress.jpeg">
+                </figure>
+                <section>
+                    <h3 class="text-biodata">Biodata</h3>
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <td>Taufik Mustafa Nur</td>
+                        </tr>
+                        <tr>
+                            <th>Tanggal Lahir</th>
+                            <td>20 Desember 2002</td>
+                        </tr>
+                        <tr>
+                            <th>Status</th>
+                            <td>Belum Kawin</td>
+                        </tr>
+                        <tr>
+                            <th>Pekerjaan</th>
+                            <td>Mahasiswa</td>
+                        </tr>
+                        <tr>
+                            <th>No Telepon</th>
+                            <td>+6282-987-654-xxx</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+    <script type="text/javascript" src="assets/scripts/script.js"></script>
+</body>
+<footer>
+    <form id="komentar">
+        <table align="center">
+                <tr>
+                     <td><textarea cols="50" rows="10" placeholder="Tuliskan Komentar"></textarea></td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="submit" value="Kirim Komentar">
+                    <input type="reset" value="hapus"/></td>
+                </tr>
+        </table>
+    </form>
+    
+</div>
+</footer>
+
+</html>
